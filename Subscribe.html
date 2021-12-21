@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+<meta charset="utf-8">
+
+<title>Subcribe </title>
+
+
+<meta name ="viewpoint" content = "width=device-width, intial-scale = 1"/>
+<meta name="description" content="">
+<meta name="author" content="">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Main.css">
+
+
+<link rel = "stylesheet" href = "JecintaFidelis.css">
+
+<script src= "Validate.js"></script>
+
+</head>
+
+  
+ 
+<body>
+
+<div class="navbar" id="mynavbar">
+  <a href="index1.html">Homepage</a>
+  <a href="Subscribe.html">Subscribe</a>
+  <a href="ContactUs.html">Contact us</a>
+  <a href="Aboutus.html">About us</a>
+  <a href="Catalogue.html">Catalogue</a>
+  <a href="Event.html">Event</a>
+  
+</div>
+  
+<div class ="row">
+
+<div class="col-sm-12">
+
+<h1 id = "heading">  Subscription Form</h1>
+</div>
+</div>
+<div class ="row">
+<div class="col-sm-12">
+<p id ="paragraph1"> Subscribe to our email newsletter today to recieve update on the latest book and special offer</p>
+</div> 
+</div>
+
+<div class = "container">
+<div class="row">
+<div class="col-sm-12">
+
+ <form  action="MAILTO:fidelisjecinta@gmail.com" onsubmit="return validateInput()" method="post" enctype="text/plain" id = "subcriptionform">
+ 
+ 
+ 
+ <p id = "paragraph2"> Fill this Form for Subcription</P>
+ 
+<div class="form-group">
+ <label for ="Name"> Name: </label>
+ <input type="text"  class="form-control" name="Name" id ="Name"/>
+ </div>
+ 
+ 
+ <div class="form-group" >
+ <label for="Email"> Email: </label>
+ <input type = "Email"  class="form-control" name ="Email" id = "Email"  />
+ </div>
+ 
+ <div
+ class="form-group">
+ <label for="Password"> Password: </label>
+ <input type ="Password" class="form-control" name ="Password" id ="Password" size="30" />
+ </div>
+ 
+ <div class="form-group">
+ <label for="ConfirmPassword">Confirm Password: </label>
+ <input type = "Password"  class="form-control" name ="Confirm Password" id ="ConfirmPassword"/>
+ </div>
+ 
+ <div class="form-group">
+    <input type="submit"  class="form-control" value="Submit"  id = "submit"/>
+  </div>
+   </form>
+ </div>
+</div>
+</div>
+</html>

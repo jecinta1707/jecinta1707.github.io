@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+body {
+background-image:url(homepage_subcribe.jpg);
+
+}
+
+
+
+#heading{
+	color:#3FC4F8;
+	 font-size : 50px;
+	 left:30%;
+	 top: 40%;
+	 font-family:sans-serif;
+	 position: absolute;
+	 margin: 50px;
+}
+
+
+
+  
+
+	
+
+#subcriptionform {
+	position:absolute;
+	left: 30%;
+	width: 40%;
+	font-family: sans-serif;
+	padding: 20px;
+	padding-left:20px;
+	
+}
+
+#subcriptionform {
+	top: 50%;
+
+}
+
+
+#paragraph1{
+	color:black;
+	top: 30px;
+	left: 20%;
+}
+
+#paragraph2{
+	color:black;
+	margin-top: 70px;
+}
+
+#paragraph3 {
+	color:black;
+	top: 20px;
+	left: 20%;
+	margin-top: 70px;
+	padding: 30px;
+}
+
+.form-group{
+	top: 25px;
+	background-color:#3FC4F8;
+
+	
+	
+}
+
+
+label {
+    float: left;
+    width: 80px;
+	color:black;
+	
+	
+	}
+	
+	 
+input {
+    width: 40%;
+	margin: 5px;
+	
+}	
+
+
+
+#submit {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  position:absolute;
+  
+  width : 60px;
+ 
+}
+
+img{
+	text-align: center;
+}
+
+footer{
+	clear: left;
+	color:black;
+	height:30px;
+	text-align:center;
+}

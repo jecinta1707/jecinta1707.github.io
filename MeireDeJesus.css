@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+    background-image: url('contactus_aboutus.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-decoration: none;
+	list-style: none;
+
+}
+.container{
+   background-color: white;
+	width: 600px;
+    height: 600px;
+	margin-left: 30%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+    max-width: 80%;
+	margin-top:10%;
+	
+}
+
+
+
+#paragraph{
+	text-align: center;
+    
+}
+.header{
+    text-align: center;
+    color: rgb(10, 3, 36);
+	
+	
+}
+
+.form-control {
+margin-bottom: 10px;
+padding-bottom: 20px;
+position:relative;
+}
+.form-control label {
+display: inline-block;
+margin-bottom: 5px;
+margin-left: 8px;
+}
+.form-control input {
+border: 2px solid darkblue;
+border-radius: 4px;
+display: block;
+font-family: sans-serif;
+font-size: 10px;
+padding: 10px;
+width: 90%;
+margin-left: 8px;
+}
+
+.form button{
+margin-left: 8px;
+border-radius: 4px;
+font-size: 15px;
+display: block;
+font-family: sans-serif;
+padding: 10px;
+width: 90%;
+background: green;
+cursor: pointer;
+
+}
+#message {
+border: 2px solid darkblue;
+border-radius: 4px;
+ margin-left:8px;
+}
+#error_message {
+	margin-bottom: 20px;
+	padding: 10px;
+	background:#fe8b8e;
+	font-size: 15px;
+	transition: all 0.5s ease;
+	text-align: center;
+}

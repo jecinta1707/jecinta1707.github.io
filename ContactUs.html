@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> <!-- HTML5 charset -->
+	<title>Contact us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ 
+<link rel="stylesheet" type="text/css" href="Main.css">
+ 
+<link rel="stylesheet" type="text/css" href="MeireDeJesus.css">
+
+  
+<script src= "Validate.js"></script>
+</head>  
+<body>  
+<div class="navbar" id="mynavbar">
+  <a href="index1.html">Homepage</a>
+  <a href="Subscribe.html">Subscribe</a>
+  <a href="ContactUs.html">Contact us</a>
+  <a href="Aboutus.html">About us</a>
+  <a href="Catalogue.html">Catalogue</a>
+  <a href="Event.html">Event</a>
+   
+</div>
+     <div class="container">
+    <div class="header">
+    <h1>Contact Us</h1>
+	</div>
+	<div id="error_message">
+	</div>
+	
+	<div id="paragraph">
+<p>We'd really like to hear from you! Please fill in the form below and submit.</p>
+    </div>
+	 
+        <form class="form" action="MAILTO:fidelisjecinta@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain" id ="form">
+
+                <div class="form-control">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter Name" id="Name">
+				</div>
+
+               <div class="form-control">
+                <label>E-mail:</label>
+                <input type="text" placeholder="Enter E-mail" id="Email">
+               </div>
+			   
+                <div class="form-control">
+				<label for="topic">Choose Topic:</label>
+                <select id="topic" name="Topic">
+                <option value="Financial Department">Financial Department</option>
+                <option value="My Order">My Order</option>
+                <option value="Author & Publisher">Author & Publisher</option>
+                <option value="Other">Other</option>
+				</select>
+                </div>
+
+                <div class="form-control">
+                <label>Message:</label>
+				<br>
+             
+				<textarea id="message" placeholder="Write something..." name="message" rows="7" cols="70"></textarea>
+                </div>
+
+               <button>Send message</button>
+       </form>
+    </div>
+	
+</body>  
+</html>  
